@@ -104,6 +104,183 @@ a, .btn, button {
 }
 
 
+.btn.btn-theme {
+	color: var(--white);
+	border: none;
+	background: var(--bg-gradient);
+}
+
+.color-style-two .btn.btn-theme {
+	background: var(--bg-gradient-two);
+}
+
+.btn.btn-theme::after {
+	position: absolute;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: -5%;
+	content: "";
+	height: 150px;
+	width: 115%;
+	z-index: -1;
+	background-color: var(--dark);
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	-webkit-transform: translateY(-45%) skew(25deg) scale(0);
+	transform: translateY(-45%) skew(25deg) scale(0);
+}
+
+.shadow .btn.btn-theme::after,
+.bg-dark .btn.btn-theme::after {
+	background-color: var(--white) !important;
+}
+
+.shadow .btn.btn-theme:hover,
+.bg-dark .btn.btn-theme:hover {
+	color: var(--color-heading);
+}
+
+.btn.btn-theme:hover::after {
+	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+	transform: translateY(-45%) skew(25deg) scale(1.2);
+}
+
+.btn.btn-theme.secondary {
+	color: var(--white);
+	border: none;
+	background: var(--color-secondary);
+}
+
+.btn.btn-theme.secondary::after {
+	position: absolute;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: -5%;
+	content: "";
+	height: 150px;
+	width: 115%;
+	z-index: -1;
+	background-color: var(--dark);
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	-webkit-transform: translateY(-45%) skew(25deg) scale(0);
+	transform: translateY(-45%) skew(25deg) scale(0);
+}
+
+.text-light .btn.btn-theme.secondary::after {
+	background-color: var(--white);
+}
+
+.text-light .btn.btn-theme.secondary:hover {
+	color: var(--color-heading);
+}
+
+.btn.btn-theme.secondary:hover::after {
+	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+	transform: translateY(-45%) skew(25deg) scale(1.2);
+}
+
+.btn.btn-theme.hover-light::after {
+	background-color: var(--white);
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.btn.btn-theme.hover-light:hover {
+	color: var(--dark);
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.btn.btn-theme.hover-light:hover::after {
+	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+	transform: translateY(-45%) skew(25deg) scale(1.2);
+}
+
+.btn.btn-light {
+	color: var(--color-heading);
+	border: none;
+	background: var(--white);
+	border: 2px solid transparent;
+}
+
+.btn.btn-light:hover {
+	color: var(--white);
+	background: transparent;
+	border: 2px solid var(--white);
+}
+
+.btn.btn-dark {
+	color: var(--white);
+	background: var(--dark);
+	border: none;
+}
+
+.btn.btn-dark::after {
+	position: absolute;
+	top: 0;
+	right: inherit;
+	bottom: inherit;
+	left: 0;
+	content: "";
+	height: 100%;
+	width: 0;
+	z-index: -1;
+	background-color: var(--color-primary);
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.secondary .btn.btn-dark::after {
+	background-color: var(--color-secondary);
+}
+
+.shadow .btn.btn-dark::after {
+	background-color: var(--white);
+}
+
+.shadow .btn.btn-dark:hover {
+	color: var(--color-heading) !important;
+}
+
+.btn.btn-dark:hover::after {
+	width: 100%;
+}
+
+.btn.btn-dark.secondary {
+	color: var(--white);
+	border: none;
+	background: var(--dark-optional);
+}
+
+.btn.btn-dark.secondary::after {
+	position: absolute;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: -5%;
+	content: "";
+	height: 150px;
+	width: 115%;
+	z-index: -1;
+	background-color: var(--white);
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	-webkit-transform: translateY(-45%) skew(25deg) scale(0);
+	transform: translateY(-45%) skew(25deg) scale(0);
+}
+
+.btn.btn-dark.secondary:hover::after {
+	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+	transform: translateY(-45%) skew(25deg) scale(1.2);
+}
+
+.btn.btn-dark.secondary:hover {
+	color: var(--color-heading);
+}
+
 .progress-wrap {
 	position: fixed;
 	right: 50px;
