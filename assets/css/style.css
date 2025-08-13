@@ -380,6 +380,7 @@ a, .btn, button {
     background-position: center;
     position: relative;
     z-index: 1;
+	background-repeat: no-repeat;
 }
 
 .banner-style-one-thumb img {
@@ -439,5 +440,25 @@ h2.first-child {
 }
 
 /* ============================================================== 
-     # Start Banner Css
+     # Start Skills Css
+=================================================================== */
+
+.skills-style-one-area {
+	padding: 120px 0;
+	background: var(--color-primary);
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.skill-style-one-thumb img {
+    width: 100%;
+}
+
+/* ============================================================== 
+     # Start Skills Css
+=================================================================== */
+
+/* ============================================================== 
+     # Start Skills Css
 =================================================================== */
