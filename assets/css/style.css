@@ -365,5 +365,23 @@ a, .btn, button {
 }
 
 /* ============================================================== 
-     # Start Navbar Css
+     # Start Banner Css
+=================================================================== */
+
+.banner-style-one-area {
+    padding: 250px 0;
+    background-size: cover;
+    background-position: center;
+    /* height: 100%; */
+    /* width: 100%; */
+    position: relative;
+    z-index: 1;
+}
+
+.banner-style-one-thumb img {
+    width: 100%;
+}
+
+/* ============================================================== 
+     # Start Banner Css
 =================================================================== */
