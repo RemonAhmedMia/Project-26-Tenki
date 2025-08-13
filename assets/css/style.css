@@ -104,7 +104,7 @@ a, .btn, button {
 }
 
 
-.btn.btn-theme {
+/* .btn.btn-theme {
 	color: var(--white);
 	border: none;
 	background: var(--bg-gradient);
@@ -279,7 +279,7 @@ a, .btn, button {
 
 .btn.btn-dark.secondary:hover {
 	color: var(--color-heading);
-}
+} */
 
 .progress-wrap {
 	position: fixed;
