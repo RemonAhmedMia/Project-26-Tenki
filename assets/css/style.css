@@ -476,6 +476,39 @@ h2.first-child {
     font-size: 24px;
 }
 
+h5.site-border {
+    color: var(--white);
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid var(--white);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.skill-style-one-content h3 {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+
+.skill-style-one-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    padding-bottom: 33px;
+}
+
+.progressbar h4 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
 /* ============================================================== 
      # Start Skills Css
 =================================================================== */
