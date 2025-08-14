@@ -455,6 +455,27 @@ h2.first-child {
     width: 100%;
 }
 
+.circle-progress {
+    display: flex;
+    align-items: center;
+}
+
+.progressbar {
+    position: relative;
+    z-index: 1;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.progressbar strong {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -15px;
+    font-size: 24px;
+}
+
 /* ============================================================== 
      # Start Skills Css
 =================================================================== */
