@@ -513,6 +513,33 @@ h5.site-border {
      # Start Skills Css
 =================================================================== */
 
+.service-style-one-heading h5 {
+	text-transform: uppercase;
+	color: #1351d8;
+	font-weight: 600;
+	background: var(--bg-gradient);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	border: 1px solid #cccccc;
+	padding: 7px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.service-style-one-area {
+    padding: 120px 0;
+}
+
+.service-style-one-heading h3 {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 /* ============================================================== 
      # Start Skills Css
 =================================================================== */
