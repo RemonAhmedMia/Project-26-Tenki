@@ -550,6 +550,33 @@ h5.site-border {
 	border-radius: 10px;
 }
 
+.service-style-one-item::after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	content: "";
+	height: 70%;
+	width: 100%;
+	background: linear-gradient(90deg, var(--color-primary) 0%, #00a1ff 100%);
+	z-index: -1;
+	transition: all 0.35s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.service-style-one-item:hover::after {
+	opacity: 1;
+	visibility: visible;
+	height: 100%;
+}
+
+.service-style-one-item .shape {
+	position: absolute;
+	right: 0;
+	top: 0;
+	max-width: 50%;
+}
+
 /* ============================================================== 
      # Start Skills Css
 =================================================================== */
