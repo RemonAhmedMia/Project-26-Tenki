@@ -27,6 +27,18 @@
     padding-left: 0 !important;
 }
 
+a.btn-theme {
+    background: red !important;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: var(--white) !important;
+    padding: 15px 38px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
